@@ -22,9 +22,9 @@ atividades = [
 
 # Listar alunos em cada ativade por sala
 
-for nome_ativiade, atividade in atividades:
+for nome_atividade, atividade in atividades:
 
-    print(f"Alunos da ativiade {nome_ativiade}\n")
+    print(f"Alunos da atividade: {nome_atividade}\n")
     print("-" * 40)
 
     atividade_sala1 = []
@@ -40,4 +40,3 @@ for nome_ativiade, atividade in atividades:
     print("Sala 2", atividade_sala2)
     print()
     print(f"#" * 40)
-
